@@ -117,12 +117,30 @@
         font-size: 1.5em;
     }
 
+    #lista{
+        padding-left: 2em;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.4em;
+        text-align: justify;
+        font-size: 1.5em;
+        color: white;
+        columns: 2;
+    }
+
     /*  TITULO -  QUEM SOU EU */
 
 
 
     /*  TITULO - PORTFOLIO  */
 
+    .trabalho{
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
+        margin-top: 2em;
+    }
 
 
     /*  TITULO - CONTATO  */
@@ -131,6 +149,15 @@
         height: 1.5em;
         width: 75px;
         height: auto;
+        padding-left: 0.5em;
+
+    }
+
+    .imagemlogocontato{
+        height: 1.5em;
+        width: 150px;
+        height: auto;
+        padding-left: 0.5em;
     }
 
     .enderecamento{
