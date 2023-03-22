@@ -48,15 +48,16 @@
 
     body{
         margin: 0px;
+        background-color: gray;
     }
 
     .conteudo{
-        background-color: #03578c;
         margin-left: 10%;
         margin-right: 10%;
         border-radius: 50px;
         padding-bottom: 1em;
         margin-top: 1.5em;
+        color: black;
     }
 
 
@@ -115,6 +116,7 @@
         text-align: justify;
         text-indent: 2em;
         font-size: 1.5em;
+        color: black;
     }
 
     #lista{
@@ -125,6 +127,17 @@
         font-size: 1.5em;
         color: white;
         columns: 3;
+    }
+
+    #eu{
+        margin-left: 10em;
+        background-color: #0378a6;
+    }
+
+    #eu > h2{
+        font-family: blade;
+        text-shadow: 3px 3px black;
+        font-size: 2.5em;
     }
 
     /*  TITULO -  QUEM SOU EU */
@@ -145,12 +158,13 @@
 
     /*  TITULO - CONTATO  */
 
+
     .imagemlogo{
         height: 1.5em;
         width: 75px;
         height: auto;
         padding-left: 0.5em;
-
+        visibility: hidden;
     }
 
     .imagemlogocontato{
