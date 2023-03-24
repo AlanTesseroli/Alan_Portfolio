@@ -19,10 +19,11 @@
 :root {
     --primary-color: #2195D9;
     --secondary-color: #64B2DF;
-    --font-color: white;
+    --font-color: rgb(1, 21, 59);
     --bg-color: white;
     --heading-color: #03588C;
     --shadow-color: white;
+    --h2-color: #009dff;
 }
 
 /*  CABEÇALHO  */
@@ -71,10 +72,10 @@
 
     [data-theme="dark"] {
         --primary-color: var(--bg-color);
-        --secondary-color: #818cab;
-        --font-color: #e1e1ff;
+        --secondary-color: #ffffff;
+        --font-color: rgb(139, 139, 139);
         --bg-color: #161625;
-        --heading-color: #818cab;
+        --heading-color: #8b8b8b;
         --shadow-color: white;
     }
 
@@ -138,7 +139,7 @@
         border-radius: 50px;
         padding-bottom: 1em;
         margin-top: 1.5em;
-        color: black;
+        color: white;
     }
 
     ::-webkit-scrollbar{
@@ -167,13 +168,13 @@
     }
 
     .logo > h1{
-        color: var(--bg-color);
+        color: black;
         font-family: blade;
         text-align: center;
         font-size: 5em;
         padding: 0px;
         margin: 0px;
-        text-shadow: 3px 3px var(--shadow-color);
+        text-shadow: 3px 3px var(--secondary-color);
     }
 
     .logo > p{
@@ -188,7 +189,8 @@
 
     .topico{
         padding-top: 1%;
-        color: var(--heading-color);
+        color: var(--h2-color);
+        padding-bottom: 4%;
     }
 
     .topico > h2{
@@ -199,6 +201,7 @@
         padding-left: 8%;
         padding-top: 1%;
         padding-bottom: 1%;
+        color: var(--h2-color);
     }
 
     .topico > h3{
@@ -214,19 +217,23 @@
         text-align: justify;
         text-indent: 2em;
         font-size: 1.5em;
-        color: black;
+        color: var(--font-color);
     }
 
-    #lista{
+    .lista{
         padding-left: 2em;
         font-family: 'Times New Roman', Times, serif;
         line-height: 1.4em;
         text-align: justify;
         font-size: 1.5em;
-        color: white;
+        color: var(--shadow-color);
         columns: 2;
         width: auto;
         padding-right: 1em;
+    }
+
+    #soft{
+        color: var(--font-color);
     }
 
     #eu{
@@ -247,6 +254,7 @@
         padding-bottom: 15px;
         padding-right: 20px;
     }
+
 
     /*  TITULO - PORTFOLIO  */
 
@@ -269,6 +277,15 @@
 
     /*  TITULO - CONTATO  */
 
+
+    #logos{
+        background-color: black;
+        padding-bottom: 30px;
+    }
+
+    #logos > h2{
+        color: var(--shadow-color);
+    }
 
     .imagemlogo{
         height: 1.5em;
