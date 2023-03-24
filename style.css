@@ -15,23 +15,33 @@
     src: url(fontes/blade.TTF);
 }
 
+
+:root {
+    --primary-color: #2195D9;
+    --secondary-color: #64B2DF;
+    --font-color: white;
+    --bg-color: white;
+    --heading-color: #03588C;
+    --shadow-color: white;
+}
+
 /*  CABEÇALHO  */
 
     header{
-        background-color: #03588C;
+        background-color: var(--heading-color);
         padding: 0.8em;
         font-family: starjedi;
     }
 
     .navigation{
         text-decoration: none;
-        color: white;
+        color: var(--font-color);
         margin-left: 2.5em;
     }
 
     .navigation:hover{
         background-color: white;
-        color: #03588C;
+        color: var(--heading-color);
         padding: 0.5em;
         border-radius: 15px;
         transition: 0.3s;
@@ -47,13 +57,6 @@
 
 /*  MODO ESCURO */
 
-    :root {
-        --primary-color: #302AE6;
-        --secondary-color: #536390;
-        --font-color: #424242;
-        --bg-color: #fff;
-        --heading-color: #292922;
-    }
 
     .theme-switch-wrapper{
         display: flex;
@@ -67,11 +70,12 @@
     }
 
     [data-theme="dark"] {
-        --primary-color: #9A97F3;
+        --primary-color: var(--bg-color);
         --secondary-color: #818cab;
         --font-color: #e1e1ff;
         --bg-color: #161625;
         --heading-color: #818cab;
+        --shadow-color: white;
     }
 
     .theme-switch {
@@ -108,7 +112,7 @@
       }
 
       input:checked + .slider {
-        background-color: #66bb6a;
+        background-color: #2195D9;
       }
       
       input:checked + .slider:before {
@@ -127,7 +131,7 @@
 
     body{
         margin: 0px;
-        background-color: var(--primary-color);
+        background-color: var(--bg-color);
     }
 
     .conteudo{
@@ -142,7 +146,7 @@
     }
 
     ::-webkit-scrollbar-track{
-        background-color: #0378a6;
+        background-color: var(--secondary-color);
         border-radius: 90px;
     }
 
@@ -155,20 +159,21 @@
     /*  LOGO  */
 
     .logo{
-        background-color: #0378a6;
+        background-color: var(--heading-color);
         margin: 2em;
         padding: 0.5em;
         border-radius: 40px;
-        box-shadow: 5px 5px black;
+        box-shadow: 5px 5px var(--shadow-color);
     }
 
     .logo > h1{
+        color: var(--bg-color);
         font-family: blade;
         text-align: center;
         font-size: 5em;
         padding: 0px;
         margin: 0px;
-        text-shadow: 3px 3px white;
+        text-shadow: 3px 3px var(--shadow-color);
     }
 
     .logo > p{
@@ -183,14 +188,13 @@
 
     .topico{
         padding-top: 1%;
-        color: white;
+        color: var(--heading-color);
     }
 
     .topico > h2{
         font-family: blade;
         text-shadow: 3px 3px black;
         font-size: 2.5em;
-        background-color: #03588C;
         padding-left: 8%;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -226,7 +230,7 @@
 
     #eu{
         margin-left: 40%;
-        background-color: #0378a6;
+        background-color: var(--heading-color);
     }
 
     #eu > h2{
@@ -243,10 +247,6 @@
         padding-right: 20px;
     }
 
-    /*  TITULO -  QUEM SOU EU */
-
-
-
     /*  TITULO - PORTFOLIO  */
 
     .trabalho{
@@ -257,6 +257,14 @@
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
         margin-top: 2em;
     }
+
+    /* TEMAS DE FUNDO*/
+
+    #tema1{
+        background-color: var(--primary-color);
+        padding-bottom: 50px;
+    }
+
 
     /*  TITULO - CONTATO  */
 
@@ -283,7 +291,7 @@
 /*  RODAPÉ  */
 
     footer{
-        background-color: #03588C;
+        background-color: var(--heading-color);
     }
 
     footer > p{
