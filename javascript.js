@@ -1,7 +1,15 @@
+// Scroll Reveal
+
 window.sr = ScrollReveal({reset: true})
 
-sr.reveal()
+sr.reveal('.topico > h2', {duration: 2000})
 
+sr.reveal('body', {duration: 2000})
+
+sr.reveal('#logos', {duration: 2000, rotate: {x:0 , y:90, z:0}})
+
+
+// DARK MODE
 
 var body = document.getElementsByName('body')
 
