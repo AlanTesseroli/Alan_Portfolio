@@ -6,7 +6,7 @@ sr.reveal('.topico > h2', {duration: 2000})
 
 sr.reveal('body', {duration: 2000})
 
-sr.reveal('#logos', {duration: 2000, rotate: {x:0 , y:90, z:0}})
+sr.reveal('#logos', {duration: 2000})
 
 sr.reveal('#imgpl', {duration: 2000, rotate: {x:0 , y:90, z:0}})
 
