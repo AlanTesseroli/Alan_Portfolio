@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alan Tesseroli - História</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<body>
+
+<body id="bodycontact">
     <header>
         <nav>
             <a href="index.html" class="navigation">Home</a>
@@ -18,12 +20,20 @@
         </nav>
     </header>
 
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+      </label>
+      <em id="darkmode">Enable Dark Mode!</em>
+    </div>
+
     <main class="conteudo">
         <article class="topico">
             <h2>Contato</h2>
             <a href="mailto:alantesseroli@gmail.com" class="enderecamento"><img src="images/email.png" alt="" class="imagemlogocontato"></a>
 
-            <a href="https://github.com/alantesseroli" target="_blank" ref="external" class="enderecamento"><img src="images/git.png" alt="" class="imagemlogocontato"></a> 
+            <a href="https://github.com/alantesseroli" target="_blank" ref="external" class="enderecamento"><img src="images/github.png" alt="" class="imagemlogocontato"></a> 
             
             <a href="https://www.linkedin.com/in/alan-tesseroli-ba2546215/" target="_blank" ref="external" class="enderecamento"><img src="images/linkedin.png" alt="" class="imagemlogocontato"></a>
             
@@ -39,5 +49,6 @@
     <footer>
         <p>Site criado por Alan Tesseroli</p>
     </footer>
+    <script src="javascript.js"></script>
 </body>
 </html>

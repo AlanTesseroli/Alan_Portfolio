@@ -353,7 +353,6 @@ font-family: 'Playfair Display', serif;
         color: white;
     }
 
-
 /*  RODAPÉ  */
 
     footer{
@@ -365,4 +364,26 @@ font-family: 'Playfair Display', serif;
         text-align: center;
         font-family: starjedi;
         margin-bottom: 0px;
+    }
+
+/* HISTÓRIA */
+
+    #historia{
+        margin: 2em 4em 2em 4em;
+    }
+
+/* HISTÓRIA */
+
+    #portifolio > h2{
+        font-size: 5em;
+    }
+
+    #portifolio > h3{
+        font-size: 2.5em;
+    }
+
+/* CONTATO */
+
+    #bodycontact{
+        background-color: gray;
     }
