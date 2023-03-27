@@ -234,6 +234,18 @@ font-family: 'Playfair Display', serif;
         color: var(--font-color);
     }
 
+    .logopl{
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #imgpl{
+        height: 25vh;
+        padding-left: 50px;
+        padding-bottom: 40px;
+    }
+
     .lista{
         padding-left: 2em;
         font-family: 'Times New Roman', Times, serif;
@@ -245,6 +257,8 @@ font-family: 'Playfair Display', serif;
         width: auto;
         padding-right: 1em;
     }
+
+
 
     #soft{
         color: var(--font-color);
