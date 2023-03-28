@@ -460,16 +460,18 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
             margin-top: 0px;
         }
 
+        #eu{
+            background-color: var(--heading-color);
+            padding-left: 2vh;
+        }
+
         #eu > h2{
             font-family: 'Bebas Neue', cursive;
             font-size: 3vh;
-            padding-left: 10px;
-            padding-top: 10px;
         }
 
         #eu > p {
             font-size: 2vh;
-            padding-left: 40px;
             padding-bottom: 15px;
             padding-right: 20px;
             font-family: 'Roboto Mono', monospace;
@@ -479,7 +481,6 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
             padding-left: 2em;
             font-family: 'Roboto Mono', monospace;
             line-height: 1.4em;
-            text-align: justify;
             font-size: 3vh;
             color: var(--shadow-color);
             columns: 1;
@@ -495,7 +496,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
             line-height: 1.4em;
             text-align: justify;
             text-indent: 2em;
-            font-size: 1.5em;
+            font-size: 1.2em;
             color: var(--font-color);
         }
         
