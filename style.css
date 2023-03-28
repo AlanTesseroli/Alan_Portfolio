@@ -39,20 +39,20 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
 
     header{
         background-color: var(--heading-color);
-        padding: 0.8em;
+        padding: 1.6vh;
         font-family: starjedi;
     }
 
     .navigation{
         text-decoration: none;
         color: var(--font-color);
-        margin-left: 2.5em;
+        margin-left: 3vh;
     }
 
     .navigation:hover{
         background-color: white;
         color: var(--heading-color);
-        padding: 0.5em;
+        padding: 1vh;
         border-radius: 15px;
         transition: 0.3s;
     }
@@ -186,8 +186,8 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
 
     .logo{
         background-color: var(--heading-color);
-        margin: 2em;
-        padding: 0.5em;
+        margin: 4vh;
+        padding: 1vh;
         border-radius: 40px;
         box-shadow: 5px 5px var(--shadow-color);
     }
@@ -196,7 +196,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
         color: black;
         font-family: blade;
         text-align: center;
-        font-size: 5em;
+        font-size: 10vh;
         padding: 0px;
         margin: 0px;
         text-shadow: 3px 3px var(--secondary-color);
@@ -206,7 +206,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
         text-shadow: 1px 1px black;
         text-align: center;
         font-family: spaceage;
-        font-size: 2em;
+        font-size: 4vh;
         margin-top: 0px;
     }
 
@@ -221,7 +221,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
     .topico > h2{
         visibility: hidden;
         font-family: 'Raleway', sans-serif;
-        font-size: 2.5em;
+        font-size: 5vh;
         padding-top: 1%;
         padding-bottom: 1%;
         color: var(--font-color);
@@ -230,7 +230,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
 
     .topico > h3{
         font-family: 'Raleway', sans-serif;
-        font-size: 1.25em;
+        font-size: 2.5vh;
         color: var(--font-color);
         text-align: center;
     }
@@ -239,8 +239,8 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
         font-family: 'Roboto Mono', monospace;
         line-height: 1.4em;
         text-align: justify;
-        text-indent: 2em;
-        font-size: 1.5em;
+        text-indent: 4vh;
+        font-size: 3vh;
         color: var(--font-color);
     }
 
@@ -255,6 +255,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
 
     #imgpl{
         height: 15vh;
+        width: auto;
         padding-left: 50px;
         padding-bottom: 40px;
     }
@@ -264,7 +265,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
         font-family: 'Roboto Mono', monospace;
         line-height: 1.4em;
         text-align: justify;
-        font-size: 1.5em;
+        font-size: 3vh;
         color: var(--shadow-color);
         columns: 2;
         width: auto;
@@ -278,19 +279,19 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
     }
 
     #eu{
-        margin-left: 40%;
+        margin-left: 30vh;
         background-color: var(--heading-color);
     }
 
     #eu > h2{
         font-family: 'Bebas Neue', cursive;
-        font-size: 2.5em;
+        font-size: 6vh;
         padding-left: 10px;
         padding-top: 10px;
     }
 
     #eu > p {
-        font-size: 1.5em;
+        font-size: 3vh;
         padding-left: 40px;
         padding-bottom: 15px;
         padding-right: 20px;
@@ -335,15 +336,15 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
     }
 
     .imagemlogo{
-        height: 1.5em;
-        width: 15vh;
+        height: 3vh;
+        width: 15%;
         height: auto;
         padding-left: 0.5em;
     }
 
     .imagemlogocontato{
         height: 1.5em;
-        width: 150px;
+        width: 15%;
         height: auto;
         padding-left: 0.5em;
     }
