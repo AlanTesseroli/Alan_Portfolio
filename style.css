@@ -220,7 +220,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
 
     .topico > h2{
         visibility: hidden;
-        font-family: 'Bebas Neue', cursive;
+        font-family: 'Raleway', sans-serif;
         font-size: 2.5em;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -229,7 +229,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
     }
 
     .topico > h3{
-        font-family: 'Bebas Neue', cursive;
+        font-family: 'Raleway', sans-serif;
         font-size: 1.25em;
         color: var(--font-color);
         text-align: center;
@@ -284,13 +284,13 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
 
     #eu > h2{
         font-family: 'Bebas Neue', cursive;
-        text-shadow: 3px 3px black;
         font-size: 2.5em;
         padding-left: 10px;
         padding-top: 10px;
     }
 
     #eu > p {
+        font-size: 1.5em;
         padding-left: 40px;
         padding-bottom: 15px;
         padding-right: 20px;
@@ -369,7 +369,20 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
 
     #historia{
         margin: 2em 4em 2em 4em;
+        columns: 2;
+        column-gap: 5em;
+        font-family: 'Roboto Mono', monospace;
+        line-height: 1.4em;
+        text-align: justify;
+        text-indent: 2em;
+        font-size: 1.5em;
+        color: var(--font-color);
     }
+
+    #historiascolums{
+        margin: 1em 5em 0em 5em;
+    }
+
 
 /* HISTÓRIA */
 
