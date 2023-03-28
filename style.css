@@ -280,7 +280,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
 
     #eu{
         background-color: var(--heading-color);
-        padding-left: 10vh;
+        margin-left: 40%;
     }
 
     #eu > h2{
@@ -407,6 +407,11 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
         color: var(--shadow-color);
     }
 
+
+
+
+
+
         /* RESPONSIVIDADE */
 
     @media (max-width: 750px){
@@ -460,9 +465,22 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
             margin-top: 0px;
         }
 
+        #paralax{
+            width: 100%;
+            height: 500px;
+            background-image: url(images/paralax_responsivo.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 3em;
+            margin-bottom: 2em;
+        }
+
         #eu{
             background-color: var(--heading-color);
             padding-left: 2vh;
+            margin: 0em;
         }
 
         #eu > h2{
@@ -503,5 +521,22 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
         #historiascolums{
             margin: 0em 1em 0em 1em;
         }
+
+        .container{
+            display: flex;
+        }
+    
+        .logopl{
+            display: flex-box;
+            text-align: center;
+        }
+    
+        #imgpl{
+            height: 15vh;
+            width: auto;
+            padding-left: 50px;
+            padding-bottom: 40px;
+        }
+
 
     }
