@@ -485,7 +485,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
 
         #eu > h2{
             font-family: 'Bebas Neue', cursive;
-            font-size: 3vh;
+            font-size: 5vh;
         }
 
         #eu > p {
@@ -499,7 +499,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
             padding-left: 2em;
             font-family: 'Roboto Mono', monospace;
             line-height: 1.4em;
-            font-size: 3vh;
+            font-size: 2vh;
             color: var(--shadow-color);
             columns: 1;
             width: auto;
@@ -534,8 +534,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
         #imgpl{
             height: 15vh;
             width: auto;
-            padding-left: 50px;
-            padding-bottom: 40px;
+            padding-left: 30px;
         }
 
 
