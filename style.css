@@ -279,8 +279,8 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
     }
 
     #eu{
-        margin-left: 30vh;
         background-color: var(--heading-color);
+        padding-left: 10vh;
     }
 
     #eu > h2{
@@ -405,4 +405,102 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
         margin-bottom: 30px;
         text-align: center;
         color: var(--shadow-color);
+    }
+
+        /* RESPONSIVIDADE */
+
+    @media (max-width: 750px){
+        
+/*  CABEÇALHO  */
+
+        header{
+            background-color: var(--heading-color);
+            padding: 1.6vh;
+            font-family: starjedi;
+            font-size: 1.5vh;
+        }
+
+        .navigation{
+            text-decoration: none;
+            color: var(--font-color);
+            margin-left: 2vh;
+        }
+
+        .navigation:hover{
+            background-color: white;
+            color: var(--heading-color);
+            padding: 1vh;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        .logo{
+            background-color: var(--heading-color);
+            margin: 4vh;
+            padding: 1vh;
+            border-radius: 40px;
+            box-shadow: 5px 5px var(--shadow-color);
+        }
+    
+        .logo > h1{
+            color: black;
+            font-family: blade;
+            text-align: center;
+            font-size: 5vh;
+            padding: 0px;
+            margin: 0px;
+            text-shadow: 3px 3px var(--secondary-color);
+        }
+    
+        .logo > p{
+            text-shadow: 1px 1px black;
+            text-align: center;
+            font-family: spaceage;
+            font-size: 2vh;
+            margin-top: 0px;
+        }
+
+        #eu > h2{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3vh;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+
+        #eu > p {
+            font-size: 2vh;
+            padding-left: 40px;
+            padding-bottom: 15px;
+            padding-right: 20px;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        .lista{
+            padding-left: 2em;
+            font-family: 'Roboto Mono', monospace;
+            line-height: 1.4em;
+            text-align: justify;
+            font-size: 3vh;
+            color: var(--shadow-color);
+            columns: 1;
+            width: auto;
+            padding-right: 1em;
+        }
+
+        #historia{
+            margin: 0em 1em 2em 1em;
+            columns: 1;
+            column-gap: 5em;
+            font-family: 'Roboto Mono', monospace;
+            line-height: 1.4em;
+            text-align: justify;
+            text-indent: 2em;
+            font-size: 1.5em;
+            color: var(--font-color);
+        }
+        
+        #historiascolums{
+            margin: 0em 1em 0em 1em;
+        }
+
     }
