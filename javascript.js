@@ -45,3 +45,22 @@ if (currentTheme) {
     }
 }
 
+//ABA DE ENVIO DE MENSAGEM AUTOMÁTICA
+
+function sendEmail() {
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const subject = document.getElementById("subject").value;
+    const message = document.getElementById("message").value;
+  
+    Email.send({
+      SecureToken: "adicionar token seguro",
+      To: "meuemail.com",
+      From: email,
+      Subject: subject,
+      Body: "Nome: " + name + "<br>E-mail: " + email + "<br>Mensagem: " + message
+    }).then(
+      message => alert("E-mail enviado com sucesso!")
+    );
+  }
+
