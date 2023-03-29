@@ -418,6 +418,17 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
         box-shadow: 5px 5px var(--shadow-color);
         font-family: 'Roboto Mono', monospace;
         font-size: 2.5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    label{
+        padding-bottom: 5px;
+    }
+
+    button{
+        margin-top: 10px;
     }
 
 
@@ -514,6 +525,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
             columns: 1;
             width: auto;
             padding-right: 1em;
+            
         }
 
         #historia{
