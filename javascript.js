@@ -47,20 +47,12 @@ if (currentTheme) {
 
 //ABA DE ENVIO DE MENSAGEM AUTOMÁTICA
 
-function sendEmail() {
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
+document.getElementById("my-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Previne que a página recarregue
+    
+    const to = "alangamer2201@gmail.com";
     const subject = document.getElementById("subject").value;
-    const message = document.getElementById("message").value;
-  
-    Email.send({
-      SecureToken: "adicionar token seguro",
-      To: "meuemail.com",
-      From: email,
-      Subject: subject,
-      Body: "Nome: " + name + "<br>E-mail: " + email + "<br>Mensagem: " + message
-    }).then(
-      message => alert("E-mail enviado com sucesso!")
-    );
-  }
-
+    const body = document.getElementById("body").value;
+    
+    window.location.href = "mailto:" + to + "?subject=" + subject + "&body=" + body;
+  });
