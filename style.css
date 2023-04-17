@@ -465,7 +465,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
 
     iframe{
         width: 70%;
-        height: 400px;
+        height: 600px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -481,6 +481,10 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
         margin-right: auto;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
         margin-top: 2em;
+    }
+
+    #responsividadeiframe{
+        display: none;
     }
 
         /* RESPONSIVIDADE */
@@ -664,6 +668,43 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
             border-radius: 40px;
             box-shadow: 5px 5px var(--shadow-color);
             font-family: 'Roboto Mono', monospace;;
+        }
+
+        iframe{
+            display: none;
+        }
+
+        #portifolio > iframe{
+            display: none;
+        }
+
+        #portifolio > #responsividadeiframe{
+            display: block;
+        }
+
+        .topico > h2{
+            visibility: hidden;
+            font-family: 'Raleway', sans-serif;
+            font-size: 3.5vh;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            color: var(--font-color);
+            text-align: center;
+        }
+
+        .topico > h3{
+            font-family: 'Raleway', sans-serif;
+            font-size: 2.3vh;
+            color: var(--font-color);
+            text-align: center;
+        }
+
+        #portifolio > h2{
+            font-size: 2.5em;
+        }
+    
+        #portifolio > h3{
+            font-size: 1.25em;
         }
 
     }
