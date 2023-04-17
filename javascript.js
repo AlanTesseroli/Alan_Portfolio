@@ -56,3 +56,22 @@ document.getElementById("my-form").addEventListener("submit", function(event) {
     
     window.location.href = "mailto:" + to + "?subject=" + subject + "&body=" + body;
   });
+
+  function mudouTamanho(){
+    if (window.innerWidth >= 750){
+        itens.style.display = "block"
+    }
+    else{
+        itens.style.display = "none"
+    }
+}
+
+
+function clickMenu(){
+    if (itens.style.display == "block"){
+        itens.style.display = "none"
+    }
+    else{
+    itens.style.display = "block"
+    }
+}

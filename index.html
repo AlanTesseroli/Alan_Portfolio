@@ -7,18 +7,21 @@
     <title>Alan Tesseroli</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
-        <nav>
-            <a href="index.html" class="navigation">Home</a>
-            <a href="historia.html" class="navigation">História</a>
-            <a href="portfolio.html" class="navigation">Portifólio</a>
-            <a href="contato.html" class="navigation">Contato</a>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
 
-        </nav>
-            
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="portfolio.html">Portifolio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </menu>
 
     </header>
 
@@ -82,9 +85,10 @@
         <article class="topico">
             <h2>PORTIFÓLIO</h2>
             <h3>Trabalhos com HTML, CSS e JavaScript</h3>
+
             <iframe src="https://alantesseroli.github.io/cooffeshop/" frameborder="0"><a href="https://alantesseroli.github.io/SagginProtese/" target="_blank" ref="external"></a><img src="images/coffeeshop.png" alt="" class="trabalho" id="logos"></a></iframe>
 
-                <iframe src="https://alantesseroli.github.io/SagginProtese/" frameborder="0"><a href="https://alantesseroli.github.io/SagginProtese/" target="_blank" ref="external"></a><img src="images/sagginprotese.png" alt="" class="trabalho" id="logos"></a></iframe>
+            <iframe src="https://alantesseroli.github.io/SagginProtese/" frameborder="0"><a href="https://alantesseroli.github.io/SagginProtese/" target="_blank" ref="external"></a><img src="images/sagginprotese.png" alt="" class="trabalho" id="logos"></a></iframe>
 
         </article>
 

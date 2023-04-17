@@ -43,6 +43,37 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
         font-family: starjedi;
     }
 
+    #burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a{
+        text-decoration: none;
+        color: var(--font-color);
+        margin-left: 3vh;
+    }
+
+    menu > ul > li > a:hover{
+        background-color: white;
+        color: var(--heading-color);
+        padding: 1vh;
+        border-radius: 15px;
+        transition: 0.3s;
+    }
+
+    menu > ul{
+        list-style-type: none;
+    }
+
+    /*
     .navigation{
         text-decoration: none;
         color: var(--font-color);
@@ -56,6 +87,7 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
         border-radius: 15px;
         transition: 0.3s;
     }
+    */
 
     #audio{
         display: block;
@@ -441,6 +473,15 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
         margin-top: 2em;
     }
 
+    #portifolio > iframe{
+        width: 70%;
+        height: 700px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
+        margin-top: 2em;
+    }
 
         /* RESPONSIVIDADE */
 
@@ -455,18 +496,64 @@ font-family: 'Roboto Mono', monospace; - Paragrafo
             font-size: 1.5vh;
         }
 
-        .navigation{
-            text-decoration: none;
-            color: var(--font-color);
-            margin-left: 2vh;
+        #burguer{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            cursor: pointer;
         }
 
-        .navigation:hover{
+        #burguer:hover{
+            border-radius: 30px;
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+    
+        menu{
+            display: none;
+        }
+    
+        #itens{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        menu > ul{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        menu > ul > li{
+            display: block;
+            text-align: center;
+        }
+
+        menu > ul > li > a{
+            
+            margin-left: 0px;
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            border-top: 2px solid #ffffff;
+        }
+    
+        menu > ul > li > a:hover{
             background-color: white;
             color: var(--heading-color);
             padding: 1vh;
             border-radius: 15px;
             transition: 0.3s;
+        }
+    
+        menu > ul{
+            list-style-type: none;
+        }
+
+        nav{
+            display: none;
         }
 
         .logo{
